@@ -50,8 +50,8 @@ export const defaultTheme = {
     // CSS Styles
     boxShadow: '-5px 6px 15px -5px rgba(0,0,0,0.49)',
     borderRadius: '6px',
-    buttonBoxShadow: '0 6px 12px rgba(0, 112, 159, 0.24)',
-    landingPadding: `${rem('88px')} ${rem('60px')}`,
+    buttonBoxShadow: '0 6px 12px rgba(0, 0, 0, 0.49)',
+    landingPadding: `${rem('88px')} ${rem('125px')}`,
     // Fonts
     sourceCodeFontFamily: 'Source Code Pro, mono space',
     robotoFontFamily: 'Roboto, sans-serif',

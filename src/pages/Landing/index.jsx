@@ -13,6 +13,7 @@ import {
     AreasSection, InfoLeftContainer, InfoRightContainer, LandingAreasContainer, LandingContactContainer, LandingInfoContainer,
     LandingQuoteContainer, LandingTitle, LandingTitleContainer, QuoteAuthor, QuoteText, UpperTitleContainer
 } from './styles'
+import Footer from '../../components/Footer'
 
 
 const Landing = ({history}) => {
@@ -97,6 +98,7 @@ const Landing = ({history}) => {
                 </WhiteLandingText>
                 <TanButton onClick={() => history.push(CONTACT)}>Contact Me</TanButton>
             </LandingContactContainer>
+            <Footer />
         </PageContainer>
     )
 }

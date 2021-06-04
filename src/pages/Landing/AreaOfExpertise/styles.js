@@ -5,7 +5,6 @@ import {rem} from 'polished'
 export const AreasImageContainer = styled.div`
     display: flex;
     align-items: center;
-    height: 100%;
 `
 
 export const AreasImage = styled.img`
