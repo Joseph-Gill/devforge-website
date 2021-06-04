@@ -8,7 +8,6 @@ export const LandingTitleContainer = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: ${rem('570px')};
     background: ${props => props.theme.primaryBlack};
     padding: ${rem('240px')} ${rem('60px')} ${rem('88px')} ${rem('60px')};
 `
@@ -34,7 +33,6 @@ export const LandingInfoContainer = styled.div`
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
-    height: ${rem('760px')};
     background: ${props => props.theme.primaryTan};
     padding: ${props => props.theme.landingPadding};
 

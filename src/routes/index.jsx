@@ -1,9 +1,10 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Header from '../components/Header'
-import Landing from '../pages/Landing'
+import About from '../pages/About'
 import Areas from '../pages/Areas'
-import {AREAS, LANDING} from './paths'
+import Landing from '../pages/Landing'
+import Header from '../components/Header'
+import {ABOUT, AREAS, LANDING} from './paths'
 
 
 const Routes = () => {
@@ -12,6 +13,7 @@ const Routes = () => {
             <Header />
             <Switch>
                 <Route component={Landing} exact path={LANDING} />
+                <Route component={About} exact path={ABOUT} />
                 <Route component={Areas} exact path={AREAS} />
             </Switch>
         </Router>

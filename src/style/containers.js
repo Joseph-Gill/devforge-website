@@ -28,3 +28,8 @@ export const TitleBar = styled.div`
     border-bottom: ${rem('3px')} solid ${props => props.theme.white};
     margin-bottom: ${rem('20px')};
 `
+
+export const ProfileImageContainer = styled.div`
+    width: ${rem('275px')};
+    height: ${rem('275px')};
+`
