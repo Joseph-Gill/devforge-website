@@ -2,9 +2,9 @@ import React from 'react'
 import {BottomContainer, FooterContainer} from './styles'
 
 
-const Footer = () => {
+const Footer = ({componentCalling}) => {
     return (
-        <FooterContainer>
+        <FooterContainer componentCalling={componentCalling}>
             <h4>Joseph Gill</h4>
             <BottomContainer>
                 <div>

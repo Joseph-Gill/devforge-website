@@ -1,7 +1,9 @@
 import React from 'react'
 import InfoText from './InfoText'
+import Footer from '../../components/Footer'
 import AreaOfExpertise from './AreaOfExpertise'
 import {ABOUT, AREAS, CONTACT} from '../../routes/paths'
+import {javascriptDescription, pythonDescription, reactDescription} from '../../helpers'
 import javaScript from '../../assets/logos/javascript-logo-240px.svg'
 import react from '../../assets/logos/react-logo-240px.svg'
 import python from '../../assets/logos/python-logo-240px.svg'
@@ -9,11 +11,8 @@ import {Title} from '../../style/titles'
 import {WhiteLandingText} from '../../style/text'
 import {PageContainer} from '../../style/containers'
 import {BlackButton, TanButton} from '../../style/buttons'
-import {
-    AreasSection, InfoLeftContainer, InfoRightContainer, LandingAreasContainer, LandingContactContainer, LandingInfoContainer,
-    LandingQuoteContainer, LandingTitle, LandingTitleContainer, QuoteAuthor, QuoteText, UpperTitleContainer
-} from './styles'
-import Footer from '../../components/Footer'
+import {AreasSection, InfoLeftContainer, InfoRightContainer, LandingAreasContainer, LandingContactContainer, LandingInfoContainer,
+    LandingQuoteContainer, LandingTitle, LandingTitleContainer, QuoteAuthor, QuoteText, UpperTitleContainer} from './styles'
 
 
 const Landing = ({history}) => {
@@ -52,26 +51,19 @@ const Landing = ({history}) => {
                 <AreaOfExpertise
                     imgAlt='javascript logo'
                     imgSrc={javaScript}
-                    sectionText='JavaScript is a scripting or programming language that allows you to implement complex features on
-                            web pages. JavaScript is used with HTML and CSS as one of the core standard web technologies. It
-                            is currently used on 95% of the worlds 1.6 billion web sites.'
+                    sectionText={javascriptDescription}
                     sectionTitle='JavaScript'
                 />
                 <AreaOfExpertise
                     imgAlt='python logo'
                     imgSrc={python}
-                    sectionText='Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. It is
-                            often used as a scripting language for web applications, meaning it can automate specific series of tasks,
-                            making it more efficient. Python is often used in software applications, web pages, shells of operating
-                            systems and some games.'
+                    sectionText={pythonDescription}
                     sectionTitle='Python'
                 />
                 <AreaOfExpertise
                     imgAlt='react logo'
                     imgSrc={react}
-                    sectionText='React is an open-source JavaScript library, developed by FaceBook, that is used for building user interfaces
-                            for single-page applications. React allows for the creation of reusable components and large web applications
-                            that can change data without reloading the page. Its main purpose is to be fast, scalable, and simple.'
+                    sectionText={reactDescription}
                     sectionTitle='React'
                 />
                 <TanButton onClick={() => history.push(AREAS)}>View All</TanButton>

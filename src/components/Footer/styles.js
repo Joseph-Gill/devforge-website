@@ -1,6 +1,7 @@
 import styled from 'styled-components/macro'
 import {rem} from 'polished'
 import {device as devices} from '../../style/devices'
+import {AREAS} from '../../routes/paths'
 
 
 export const FooterContainer = styled.div`
@@ -9,6 +10,7 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     background: ${props => props.theme.primaryTan};
     padding: ${props => props.theme.landingPadding};
+    border-top: ${props => props.componentCalling === AREAS ? `1px solid ${props.theme.primaryBlack}` : 'none'};
 
     @media ${devices.laptopL} {
         padding-left: ${rem('325px')};

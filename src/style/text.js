@@ -12,3 +12,7 @@ export const LandingText = styled.p`
 export const WhiteLandingText = styled(LandingText)`
     color: ${props => props.theme.white};
 `
+
+export const TextSectionText = styled.p`
+    color: ${props => props.theme.white};
+`

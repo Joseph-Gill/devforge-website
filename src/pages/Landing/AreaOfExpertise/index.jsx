@@ -1,6 +1,9 @@
 import React from 'react'
+import {AreasImage} from '../../../style/images'
+import {TextSectionText} from '../../../style/text'
+import {TextSectionTitle} from '../../../style/titles'
+import {AreasImageContainer, AreasTextContainer, TitleBar} from '../../../style/containers'
 import {AreasSection} from '../styles'
-import {AreasImage, AreasImageContainer, AreasTextContainer, TextSectionText, TextSectionTitle, TitleBar} from './styles'
 
 
 const AreaOfExpertise = ({imgAlt, imgSrc, sectionTitle, sectionText}) => {
