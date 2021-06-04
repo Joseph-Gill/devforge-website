@@ -10,7 +10,6 @@ ReactDOM.render(
     // eslint-disable-next-line react/jsx-filename-extension
     <ThemeProvider theme={defaultTheme}>
         <GlobalStyle />
-
         <Routes />
     </ThemeProvider>,
   document.getElementById('root')

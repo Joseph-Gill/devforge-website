@@ -1,0 +1,5 @@
+export const LANDING = '/'
+export const ABOUT = '/about'
+export const AREAS = '/areas'
+export const FAMILY = '/family'
+export const CONTACT = '/contact'

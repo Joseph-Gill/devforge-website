@@ -1,6 +1,8 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Header from '../components/Header'
+import Landing from '../pages/Landing'
+import {LANDING} from './paths'
 
 
 const Routes = () => {
@@ -8,7 +10,7 @@ const Routes = () => {
         <Router>
             <Header />
             <Switch>
-                <div />
+                <Route component={Landing} exact path={LANDING} />
             </Switch>
         </Router>
     )
