@@ -36,6 +36,7 @@ export const GlobalStyle = createGlobalStyle`
 export const defaultTheme = {
     // Colors
     primaryBlack: '#2A2829',
+    secondaryBlack: '#2a2928',
     primaryTan: '#E0E0DB',
     grayOne: '#3A3B3F',
     grayTwo: '#949A9F',
@@ -48,6 +49,7 @@ export const defaultTheme = {
     // CSS Styles
     boxShadow: '-5px 6px 15px -5px rgba(0,0,0,0.49)',
     borderRadius: '6px',
+    buttonBoxShadow: '0 6px 12px rgba(0, 112, 159, 0.24)',
     // Fonts
     sourceCodeFontFamily: 'Source Code Pro, mono space',
     robotoFontFamily: 'Roboto, sans-serif',
