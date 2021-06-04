@@ -1,5 +1,6 @@
 import React from 'react'
-import {LandingText} from './styles'
+import {LandingText} from '../../../style/text'
+
 
 
 const InfoText = () => {

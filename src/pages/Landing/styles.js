@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro'
 import {rem} from 'polished'
+import {device as devices} from '../../style/devices'
 
 
 export const LandingTitleContainer = styled.div`
@@ -31,10 +32,15 @@ export const UpperTitleContainer = styled.div`
 export const LandingInfoContainer = styled.div`
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     width: 100%;
     height: ${rem('760px')};
     background: ${props => props.theme.primaryTan};
-    padding: ${rem('88px')} ${rem('60px')};
+    padding: ${props => props.theme.landingPadding};
+
+    @media ${devices.laptopL} {
+        justify-content: flex-start;
+    }
 `
 
 export const InfoLeftContainer = styled.div`
@@ -59,6 +65,7 @@ export const InfoRightContainer = styled.div`
     flex-direction: column;
     line-height: ${rem('20px')};
 
+
     h2 {
         margin-bottom: ${rem('20px')};
         font-size: ${rem('22px')};
@@ -73,4 +80,53 @@ export const InfoRightContainer = styled.div`
         margin-bottom: ${rem('10px')};
         font-size: ${rem('18px')};
     }
+`
+
+export const AreasSection = styled.div`
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    min-height: ${rem('100px')};
+    border-bottom: ${rem('2px')} solid ${props => props.theme.primaryTan};
+`
+
+export const LandingAreasContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    background: ${props => props.theme.primaryBlack};
+    padding: ${props => props.theme.landingPadding};
+`
+
+export const QuoteAuthor = styled.p`
+    font-size: ${rem('18px')};
+`
+
+export const LandingQuoteContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: ${props => props.theme.landingPadding};
+    background: ${props => props.theme.primaryTan};
+
+    ${QuoteAuthor}:nth-child(2) {
+        margin-bottom: ${rem('30px')};
+    }
+`
+
+export const QuoteText = styled.h2`
+    font-family: ${props => props.theme.latoFontFamily};
+    font-size: ${rem('40px')};
+    font-weight: 200;
+    width: 65%;
+    margin-bottom: ${rem('30px')};
+`
+
+export const LandingContactContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: ${props => props.theme.landingPadding};
+    background: ${props => props.theme.primaryBlack};
 `
