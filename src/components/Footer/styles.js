@@ -1,5 +1,6 @@
 import styled from 'styled-components/macro'
 import {rem} from 'polished'
+import {device as devices} from '../../style/devices'
 
 
 export const FooterContainer = styled.div`
@@ -8,6 +9,10 @@ export const FooterContainer = styled.div`
     flex-direction: column;
     background: ${props => props.theme.primaryTan};
     padding: ${props => props.theme.landingPadding};
+
+    @media ${devices.laptopL} {
+        padding-left: ${rem('325px')};
+    }
 
     h4 {
         font-family: ${props => props.theme.latoFontFamily};

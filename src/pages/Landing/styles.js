@@ -40,6 +40,7 @@ export const LandingInfoContainer = styled.div`
 
     @media ${devices.laptopL} {
         justify-content: flex-start;
+        padding-left: ${rem('325px')};
     }
 `
 
@@ -97,6 +98,10 @@ export const LandingAreasContainer = styled.div`
     width: 100%;
     background: ${props => props.theme.primaryBlack};
     padding: ${props => props.theme.landingPadding};
+
+    @media ${devices.laptopL} {
+        padding-left: ${rem('325px')};
+    }
 `
 
 export const QuoteAuthor = styled.p`
@@ -109,6 +114,10 @@ export const LandingQuoteContainer = styled.div`
     width: 100%;
     padding: ${props => props.theme.landingPadding};
     background: ${props => props.theme.primaryTan};
+
+    @media ${devices.laptopL} {
+        padding-left: ${rem('325px')};
+    }
 
     ${QuoteAuthor}:nth-child(2) {
         margin-bottom: ${rem('30px')};
@@ -129,4 +138,8 @@ export const LandingContactContainer = styled.div`
     width: 100%;
     padding: ${props => props.theme.landingPadding};
     background: ${props => props.theme.primaryBlack};
+
+    @media ${devices.laptopL} {
+        padding-left: ${rem('325px')};
+    }
 `
