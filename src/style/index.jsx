@@ -51,4 +51,5 @@ export const defaultTheme = {
     // Fonts
     sourceCodeFontFamily: 'Source Code Pro, mono space',
     robotoFontFamily: 'Roboto, sans-serif',
+    latoFontFamily: 'Lato, sans-serif',
 }
