@@ -8,6 +8,8 @@ import {PageContainer} from '../../style/containers'
 import {AboutDescriptionText, AboutDescriptionTextContainer, AboutTopContainer} from './styles'
 
 
+
+
 const About = () => {
     return (
         <PageContainer>
@@ -15,22 +17,21 @@ const About = () => {
                 <Profile />
                 <AboutDescriptionTextContainer>
                     <AboutDescriptionText>
-                        Nulla non hendrerit mi. Suspendisse potenti. Quisque nulla massa, fermentum ac scelerisque id, varius ac elit.
-                        Quisque eget erat diam. Integer lacinia, massa sit amet posuere tristique, ante velit consectetur magna, id tristique
-                        ipsum purus in dui. Ut venenatis pretium dolor nec accumsan. Donec bibendum, quam quis accumsan imperdiet, lorem erat
-                        efficitur mauris, et ultricies sapien orci in dolor. Donec sollicitudin ante vel velit porttitor, vitae suscipit lectus
-                        suscipit. Aliquam porta cursus ultrices. Duis varius eros dui, malesuada finibus urna hendrerit at. Curabitur nec
-                        egestas lectus. Vivamus sagittis orci ac orci volutpat tincidunt. Sed vitae ipsum in lacus cursus vulputate ac vitae
-                        tortor. Vestibulum ac orci leo. Ut aliquam pellentesque vulputate. Vestibulum sit amet est risus.
+                        I am a US citizen who grew up in Ohio and moved to Chicago, Illinois before traveling abroad. I currently residing with my wife
+                        in the United Kingdom. We moved to the United Kingdom in early 2021 after living in Zurich, Switzerland for four years. The experiences
+                        of living abroad has given me the opportunity to interact and work along side a wide variety of different people and cultures.
                     </AboutDescriptionText>
                     <AboutDescriptionText>
-                        Nulla non hendrerit mi. Suspendisse potenti. Quisque nulla massa, fermentum ac scelerisque id, varius ac elit.
-                        Quisque eget erat diam. Integer lacinia, massa sit amet posuere tristique, ante velit consectetur magna, id tristique
-                        ipsum purus in dui. Ut venenatis pretium dolor nec accumsan. Donec bibendum, quam quis accumsan imperdiet, lorem erat
-                        efficitur mauris, et ultricies sapien orci in dolor. Donec sollicitudin ante vel velit porttitor, vitae suscipit lectus
-                        suscipit. Aliquam porta cursus ultrices. Duis varius eros dui, malesuada finibus urna hendrerit at. Curabitur nec
-                        egestas lectus. Vivamus sagittis orci ac orci volutpat tincidunt. Sed vitae ipsum in lacus cursus vulputate ac vitae
-                        tortor. Vestibulum ac orci leo. Ut aliquam pellentesque vulputate. Vestibulum sit amet est risus.
+                        I developed a passion for technology at a young age in spending time building computers and solving puzzles with my father. I worked in
+                        Retail Management for more than fifteen years leading teams with a focus on providing an excellent customer experience. While in Switzerland,
+                        I decided to pursue my passion for technology and did so by attending the Full Stack program at
+                        {/* eslint-disable-next-line react/jsx-max-depth */}
+                        <a href='https://propulsion.academy/' rel='noopener noreferrer' target='_blank'>Propulsion Academy</a>.
+                    </AboutDescriptionText>
+                    <AboutDescriptionText>
+                        As a Full Stack and Software Developer Consultant I have worked on several small projects as well as large projects such as building a prototype
+                        application for a Tax Advisory start-up. Below you can find projects I have developed with links to my Github repo where the code is hosted. If
+                        the project is current deployed there will be links to the website as well.
                     </AboutDescriptionText>
                 </AboutDescriptionTextContainer>
             </AboutTopContainer>

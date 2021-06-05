@@ -19,7 +19,6 @@ export const AreasTextContainer = styled.div`
     flex-direction: column;
     width: ${rem('800px')};
     padding: ${rem('20px')};
-    margin-bottom: ${rem('100px')};
 `
 
 export const TitleBar = styled.div`

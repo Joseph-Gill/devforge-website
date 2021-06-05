@@ -67,17 +67,17 @@ export const InfoRightContainer = styled.div`
 
     h2 {
         margin-bottom: ${rem('20px')};
-        font-size: ${rem('22px')};
+        font-size: ${rem('26px')};
     }
 
     span {
         margin-bottom: ${rem('20px')};
-        font-size: ${rem('18px')};
+        font-size: ${rem('20px')};
     }
 
     p {
         margin-bottom: ${rem('10px')};
-        font-size: ${rem('18px')};
+        font-size: ${rem('20px')};
     }
 `
 

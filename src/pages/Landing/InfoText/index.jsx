@@ -6,18 +6,11 @@ import {LandingText} from '../../../style/text'
 const InfoText = () => {
     return (
         <div>
-            <LandingText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non pulvinar mauris. Fusce malesuada viverra tempus.
-                Pellentesque semper molestie elit, ac tempor tortor. Sed est urna, finibus eget convallis vitae, venenatis id libero.
-                Nullam eget nisi eget tortor finibus cursus. Nunc id tellus massa. Nulla eu erat ut lorem dictum convallis at non ligula.
-                Ut mattis sollicitudin sodales. Aliquam erat volutpat. Aliquam aliquam id orci id vehicula.
-            </LandingText>
-            <LandingText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non pulvinar mauris. Fusce malesuada viverra tempus.
-                Pellentesque semper molestie elit, ac tempor tortor. Sed est urna, finibus eget convallis vitae, venenatis id libero.
-                Nullam eget nisi eget tortor finibus cursus. Nunc id tellus massa. Nulla eu erat ut lorem dictum convallis at non ligula.
-                Ut mattis sollicitudin sodales. Aliquam erat volutpat. Aliquam aliquam id orci id vehicula.
-            </LandingText>
+            {/*<LandingText>*/}
+            {/*    A Full Stack Developer residing in Cheshire, UK with significant project experience. Someone that is always looking for new and exciting software */}
+            {/*    development opportunities. A person that has developed effective communication and leadership skills during years of retail management before successfully */}
+            {/*    transitioning careers to one based in the growing technology sector.*/}
+            {/*</LandingText>*/}
         </div>
     )
 }

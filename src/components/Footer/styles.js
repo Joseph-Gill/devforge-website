@@ -19,7 +19,7 @@ export const FooterContainer = styled.div`
     h4 {
         font-family: ${props => props.theme.latoFontFamily};
         font-weight: 400;
-        font-size: ${rem('24px')};
+        font-size: ${rem('28px')};
         margin-bottom: ${rem('40px')};
     }
 `
@@ -30,7 +30,7 @@ export const BottomContainer = styled.div`
     width: ${rem('500px')};
 
     p {
-        font-size: ${rem('18px')};
+        font-size: ${rem('20px')};
         margin-bottom: ${rem('20px')};
     }
 `

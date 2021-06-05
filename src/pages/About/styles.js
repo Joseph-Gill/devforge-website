@@ -27,4 +27,11 @@ export const AboutDescriptionText = styled.p`
     font-size: ${rem('18px')};
     color: ${props => props.theme.white};
     margin-bottom: ${rem('30px')};
+    line-height: ${rem('24px')};
+
+    a {
+        font-size: ${rem('18px')};
+        color: ${props => props.theme.white};
+        margin-left: ${rem('5px')};
+    }
 `

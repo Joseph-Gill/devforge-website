@@ -28,7 +28,7 @@ const Landing = ({history}) => {
             <LandingInfoContainer>
                 <InfoLeftContainer>
                     <h3>
-                        A lifelong technology enthusiast with a passion for solving
+                        I am a lifelong technology enthusiast with a passion for solving
                         technical challenges across the stack and writing clean and
                         readable code in compliance with industry best practices.
                     </h3>
@@ -83,10 +83,8 @@ const Landing = ({history}) => {
             <LandingContactContainer>
                 <Title>Get in Touch</Title>
                 <WhiteLandingText>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non pulvinar mauris. Fusce malesuada viverra tempus.
-                    Pellentesque semper molestie elit, ac tempor tortor. Sed est urna, finibus eget convallis vitae, venenatis id libero.
-                    Nullam eget nisi eget tortor finibus cursus. Nunc id tellus massa. Nulla eu erat ut lorem dictum convallis at non ligula.
-                    Ut mattis sollicitudin sodales. Aliquam erat volutpat. Aliquam aliquam id orci id vehicula.
+                    I am open to discuss opportunities to work on both front and back-end development for either long or short term projects. If you
+                    wish to discuss a potential opportunity with me, please feel free to contact me below. I look forward to hearing from you.
                 </WhiteLandingText>
                 <TanButton onClick={() => history.push(CONTACT)}>Contact Me</TanButton>
             </LandingContactContainer>
