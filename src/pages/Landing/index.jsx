@@ -1,17 +1,18 @@
 import React from 'react'
 import InfoText from './InfoText'
+import ContactMe from './ContactMe'
 import Footer from '../../components/Footer'
 import AreaOfExpertise from './AreaOfExpertise'
 import {ABOUT, AREAS, CONTACT} from '../../routes/paths'
 import {javascriptDescription, pythonDescription, reactDescription} from '../../helpers'
-import javaScript from '../../assets/logos/javascript-logo-240px.svg'
 import react from '../../assets/logos/react-logo-240px.svg'
 import python from '../../assets/logos/python-logo-240px.svg'
+import javaScript from '../../assets/logos/javascript-logo-240px.svg'
 import {Title} from '../../style/titles'
 import {WhiteLandingText} from '../../style/text'
 import {PageContainer} from '../../style/containers'
 import {BlackButton, TanButton} from '../../style/buttons'
-import {AreasSection, InfoLeftContainer, InfoRightContainer, LandingAreasContainer, LandingContactContainer, LandingInfoContainer,
+import {AreasSection, InfoLeftContainer, LandingAreasContainer, LandingContactContainer, LandingInfoContainer,
     LandingQuoteContainer, LandingTitle, LandingTitleContainer, QuoteAuthor, QuoteText, UpperTitleContainer} from './styles'
 
 
@@ -35,14 +36,7 @@ const Landing = ({history}) => {
                     <InfoText />
                     <BlackButton onClick={() => history.push(ABOUT)}>Learn More</BlackButton>
                 </InfoLeftContainer>
-                <InfoRightContainer>
-                    <h2>Contact Me</h2>
-                    <span>Joseph Gill</span>
-                    <p>Chester, Cheshire</p>
-                    <span>England, UK</span>
-                    <p>devforgeuk@gmail.com</p>
-                    <span>+44 7735 180477</span>
-                </InfoRightContainer>
+                <ContactMe />
             </LandingInfoContainer>
             <LandingAreasContainer>
                 <AreasSection>

@@ -13,7 +13,7 @@ const Footer = ({componentCalling}) => {
                 </div>
                 <div>
                     <p>+44 7735 180477</p>
-                    <p>devforgeuk@gmail.com</p>
+                    <a href='mailto:devforgeuk@gmail.com'>devforgeuk@gmail.com</a>
                 </div>
             </BottomContainer>
         </FooterContainer>

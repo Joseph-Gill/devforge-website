@@ -24,7 +24,7 @@ export const AreasTextContainer = styled.div`
 export const TitleBar = styled.div`
     height: ${rem('3px')};
     width: ${rem('40px')};
-    border-bottom: ${rem('3px')} solid ${props => props.theme.white};
+    border-top: ${rem('3px')} solid ${props => props.theme.white};
     margin-bottom: ${rem('20px')};
 `
 

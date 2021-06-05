@@ -5,7 +5,7 @@ import joseph from '../../../assets/profiles/joseph_profile.png'
 import {LinkContainer} from '../../../style/links'
 import {ProfileImage} from '../../../style/images'
 import {ProfileImageContainer} from '../../../style/containers'
-import {LinkedInGitHubContainer, TopLeftContainer} from './styles'
+import {LinkedInGitHubContainer, ProfileName, TopLeftContainer} from './styles'
 
 
 const Profile = () => {
@@ -14,6 +14,7 @@ const Profile = () => {
             <ProfileImageContainer>
                 <ProfileImage alt='joseph profile' src={joseph} />
             </ProfileImageContainer>
+            <ProfileName>Joseph Gill</ProfileName>
             <LinkedInGitHubContainer>
                 <LinkContainer href='https://www.linkedin.com/in/josephedwingill/' rel='noopener noreferrer' target='_blank'>
                     <img alt='linkedIn' src={linkedIn} />

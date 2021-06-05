@@ -33,4 +33,15 @@ export const BottomContainer = styled.div`
         font-size: ${rem('20px')};
         margin-bottom: ${rem('20px')};
     }
+
+    a {
+        font-size: ${rem('20px')};
+        margin-bottom: ${rem('10px')};
+        text-decoration: none;
+
+        :hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
 `

@@ -14,5 +14,11 @@ export const LinkedInGitHubContainer = styled.div`
     display: flex;
     justify-content: space-between;
     width: ${rem('220px')};
-    margin-top: ${rem('30px')};
+    margin-top: ${rem('20px')};
+`
+
+export const ProfileName = styled.h1`
+    color: ${props => props.theme.white};
+    margin-top: ${rem('20px')};
+    font-size: ${rem('45px')};
 `

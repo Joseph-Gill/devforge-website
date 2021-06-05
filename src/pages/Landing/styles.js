@@ -59,34 +59,12 @@ export const InfoLeftContainer = styled.div`
     }
 `
 
-export const InfoRightContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    line-height: ${rem('20px')};
-
-
-    h2 {
-        margin-bottom: ${rem('20px')};
-        font-size: ${rem('26px')};
-    }
-
-    span {
-        margin-bottom: ${rem('20px')};
-        font-size: ${rem('20px')};
-    }
-
-    p {
-        margin-bottom: ${rem('10px')};
-        font-size: ${rem('20px')};
-    }
-`
-
 export const AreasSection = styled.div`
     display: flex;
     justify-content: space-between;
     width: 65%;
     min-height: ${rem('100px')};
-    border-bottom: ${rem('2px')} solid ${props => props.theme.primaryTan};
+    border-bottom: ${rem('1px')} solid ${props => props.theme.primaryTan};
 `
 
 export const LandingAreasContainer = styled.div`
@@ -96,6 +74,10 @@ export const LandingAreasContainer = styled.div`
     width: 100%;
     background: ${props => props.theme.primaryBlack};
     padding: ${props => props.theme.landingPadding};
+
+    div:nth-last-child(2) {
+        border-bottom: none;
+    }
 
     @media ${devices.laptopL} {
         padding-left: ${rem('325px')};
